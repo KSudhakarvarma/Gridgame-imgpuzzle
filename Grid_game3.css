@@ -1,0 +1,63 @@
+.gridGame {
+    background-image: url("image4.jpg");
+    width: 213px;
+    height: 213px;
+  }
+  .full-image {
+    background-image: url("image4.jpg");
+    width: 852px;
+    height: 639px;
+    float: left;
+  }
+  .piece-1 {
+    background-position: -426px -213px;
+    border: 1px solid black;
+  }
+  .piece-2 {
+    background-position: -426px -0px;
+    border: 1px solid black;
+  }
+  .piece-3 {
+    background-position: -426px -426px;
+    border: 1px solid black;
+  }
+  .piece-4 {
+    background-position: -0 -426px;
+    border: 1px solid black;
+  }
+  .piece-5 {
+    background-position: -0px -213px;
+    border: 1px solid black;
+  }
+  .piece-6 {
+    background-position: -213px -426px;
+    border: 1px solid black;
+  }
+  .piece-7 {
+    background-position: -213px -213px;
+    border: 1px solid black;
+  }
+  .piece-8 {
+    background-position: -213px -639px;
+    border: 1px solid black;
+  }
+  .piece-9 {
+    background-position: 0px 0px;
+    border: 1px solid black;
+  }
+  .piece-10 {
+    background-position: -639px -0px;
+    border: 1px solid black;
+  }
+  .piece-11 {
+    background-position: -639px -213px;
+    border: 1px solid black;
+  }
+  .piece-12 {
+    background-position: -639px -426px;
+    border: 1px solid black;
+  } 
+  .container div {
+    display: inline-block;
+  }
+  

@@ -1,0 +1,50 @@
+.gridGame {
+  background-image: url("image2.jpg");
+  width: 600px;
+  height: 400px;
+}
+.full-image {
+  background-image: url("image2.jpg");
+  width: 1800px;
+  height: 1200px;
+  float: left;
+}
+.piece-1 {
+  background-position: -600px -400px;
+  border: 1px solid black;
+}
+.piece-2 {
+  background-position: -600px -0px;
+  border: 1px solid black;
+}
+.piece-3 {
+  background-position: -600px -800px;
+  border: 1px solid black;
+}
+.piece-4 {
+  background-position: -0 -800px;
+  border: 1px solid black;
+}
+.piece-5 {
+  background-position: -0px -400px;
+  border: 1px solid black;
+}
+.piece-6 {
+  background-position: -1200px -800px;
+  border: 1px solid black;
+}
+.piece-7 {
+  background-position: -1200px -400px;
+  border: 1px solid black;
+}
+.piece-8 {
+  background-position: -1200px -1200px;
+  border: 1px solid black;
+}
+.piece-9 {
+  background-position: 0px 0px;
+  border: 1px solid black;
+}
+.container div {
+  display: inline-block;
+}

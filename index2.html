@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./Grid_game2.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid Game</title>
+  <h1>Image Puzzle</h1>
+</head>
+
+<body>
+  <div class="container">
+    <div id="piece-1-container" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <div id="piece-1" class="gridGame piece-1" ondragstart="drag(event)" draggable="true"></div>
+    </div>
+    <div id="piece-2-container" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <div id="piece-2" class="gridGame piece-2" ondragstart="drag(event)" draggable="true"></div>
+    </div>
+    <div id="piece-3-container" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <div id="piece-3" class="gridGame piece-3" ondragstart="drag(event)" draggable="true"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="piece-4-container" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <div id="piece-4" class="gridGame piece-4" ondragstart="drag(event)" draggable="true"></div>
+    </div>
+    <div id="piece-5-container" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <div id="piece-5" class="gridGame piece-5" ondragstart="drag(event)" draggable="true"></div>
+    </div>
+    <div id="piece-6-container" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <div id="piece-6" class="gridGame piece-6" ondragstart="drag(event)" draggable="true"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="piece-7-container" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <div id="piece-7" class="gridGame piece-7" ondragstart="drag(event)" draggable="true"></div>
+    </div>
+    <div id="piece-8-container" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <div id="piece-8" class="gridGame piece-8" ondragstart="drag(event)" draggable="true"></div>
+    </div>
+    <div id="piece-9-container" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <div id="piece-9" class="gridGame piece-9" ondragstart="drag(event)" draggable="true"></div>
+    </div>
+  </div><br>
+  <button id="startBtn" ,style='display:inline;' onclick="shuffle()">start</button><br>
+  <div class="full-image"></div><br>
+  <script>
+    function shuffle() {
+      let arry = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+      arry.sort(function (a, b) { return 0.5 - Math.random() });
+    }
+  </script>
+</body><br>
+<script src="./Grid_game.js"></script>
+
+</html>
